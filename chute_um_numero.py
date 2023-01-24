@@ -1,4 +1,4 @@
-#Criar um algoritmo que gera um valor aleatorio e eu tenho que ficar tentando acertar o número
+#Algoritmo que gera um numero e eu tenho que chutar ate acertar
 
 import random
 
@@ -25,7 +25,6 @@ class ChuteUmNumero:
     
     def pergunta(self):
         self.chute = input("Chute um número:")
-
 
     def gerarnumero(self):
         self.valoraleatorio = random.randint(self.valorminimo, self.valormaximo)
