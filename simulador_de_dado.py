@@ -1,6 +1,7 @@
 #Simulador de dado
 
 import random
+
 #import PySimpleGUI
 
 class SimuladorDado:
